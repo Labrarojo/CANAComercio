@@ -9,7 +9,7 @@ public class ARConexion {
     private static int id_oferta = 0;
 
     //URL de conexión con el API REST
-    private static String iniciar_sesion = "http://canaco.demos.mx/api/auth/login";
+    private static String iniciar_sesion = "http://canaco.demos.mx/api/auth/login/comercios";
     private static String cerrar_sesion = "http://canaco.demos.mx/api/logout";
     private static String empleados_create_post = "http://canaco.demos.mx/api/comercios/"+id_comercio+"/empleados";
     private static String empleados_index_get = "http://canaco.demos.mx/api/comercios/"+id_comercio+"/empleados";
@@ -32,5 +32,5 @@ public class ARConexion {
     private static String ofertas_edit_path = "http://canaco.demos.mx/api/ofertas/"+id_oferta;
     //Fin de los URL
 
-
+    
 }
