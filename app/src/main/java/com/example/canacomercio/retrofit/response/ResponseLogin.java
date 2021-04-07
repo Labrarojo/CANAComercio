@@ -1,5 +1,5 @@
 
-package com.example.canacomercio.retrofit.responder;
+package com.example.canacomercio.retrofit.response;
 
 import com.example.canacomercio.retrofit.Data;
 import com.example.canacomercio.retrofit.Links;
@@ -7,7 +7,7 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 
-public class ResponderLogin {
+public class ResponseLogin {
 
     @SerializedName("data")
     @Expose
@@ -20,7 +20,7 @@ public class ResponderLogin {
      * No args constructor for use in serialization
      * 
      */
-    public ResponderLogin() {
+    public ResponseLogin() {
     }
 
     /**
@@ -28,7 +28,7 @@ public class ResponderLogin {
      * @param data
      * @param links
      */
-    public ResponderLogin(Data data, Links links) {
+    public ResponseLogin(Data data, Links links) {
         super();
         this.data = data;
         this.links = links;

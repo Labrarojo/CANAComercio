@@ -22,4 +22,10 @@
         android:name="com.example.canacomercio.ui.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_tickets"
+        android:name="com.example.canacomercio.ui.ui.tickets.TicketsFragment"
+        android:label="Tickets"
+        tools:layout="@layout/fragment_tickets" />
 </navigation>

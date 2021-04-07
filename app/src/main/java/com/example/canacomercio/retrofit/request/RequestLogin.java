@@ -1,10 +1,10 @@
 
-package com.example.canacomercio.retrofit.solicitar;
+package com.example.canacomercio.retrofit.request;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class SolicitarLogin {
+public class RequestLogin {
 
     @SerializedName("email")
     @Expose
@@ -20,7 +20,7 @@ public class SolicitarLogin {
      * No args constructor for use in serialization
      * 
      */
-    public SolicitarLogin() {
+    public RequestLogin() {
     }
 
     /**
@@ -29,7 +29,7 @@ public class SolicitarLogin {
      * @param rememberMe
      * @param email
      */
-    public SolicitarLogin(String email, String password, boolean rememberMe) {
+    public RequestLogin(String email, String password, boolean rememberMe) {
         super();
         this.email = email;
         this.password = password;
